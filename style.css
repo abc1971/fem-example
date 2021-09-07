@@ -1,0 +1,47 @@
+h1 {
+  color: red;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 450px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.button {
+  width: 110px;
+  border: 1px solid #333;
+  padding: 25px;
+  font-size: 35px;
+}
+
+.button:hover {
+  background-color: rgb(222, 222, 235);
+}
+
+.double {
+  width: 220px;
+}
+.triple {
+  width: 330px;
+}
+.quad {
+  width: 430px;
+  border: 1px solid #333;
+  background-color: #333;
+  color: beige;
+  width: 398px;
+  padding: 30px 20px;
+  text-align: right;
+  font-size: 40px;
+}
+.sign {
+  background-color: #df974c;
+}
+.sign:hover {
+  background-color: #f3dbc1;
+}
